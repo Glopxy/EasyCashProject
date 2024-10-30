@@ -13,6 +13,7 @@ namespace EasyCashProject.EntityLayer.Concrete
         public string CustomerAccountCurrency { get; set; }
         public decimal CustomerAccountBalance { get; set; }
         public string BankBalance { get; set; }
-
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
